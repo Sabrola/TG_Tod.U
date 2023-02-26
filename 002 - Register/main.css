@@ -161,4 +161,12 @@ body {
      .btn-back {
         width: 30%;
      }
+     
+     .card-regi > h1 {
+        margin-top: 90px;
+     }
+
+     .register-Image {
+        display: none;
+     }
 }
