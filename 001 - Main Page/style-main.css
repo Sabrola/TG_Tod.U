@@ -5,6 +5,10 @@ body {
     font-family: 'Dosis', sans-serif;
 }
 
+tittle {
+    display: none;
+}
+
 .main-part {
     width: 100vw;
     height: 100vh;

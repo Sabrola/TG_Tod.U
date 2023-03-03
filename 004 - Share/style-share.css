@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;800&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+tittle {
+    display: none;
+}
+
+.back{
+    width: 100vw;
+    height: 10vh; 
+    background-color: #878786;
+    justify-content: center;
+}
+
+.main-part {
+    width: 100vw;
+    height: 90vh;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle > h3 {
+    width: 60%;
+    color: #878786;
+    text-align: center;
+}
+
+.textfield {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+    font-weight: 600;
+}
+
+.textfield > input {
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    background-color: #dbdbd8;
+    color: #444444;
+    font-size: 12pt;
+    outline-color: #878786;
+    box-sizing: border-box;
+}
+
+
+.textfield > label {
+    color:#000000;
+    margin-bottom: 10px;
+}
+
+.textfield > input::placeholder {
+    color: #878786;
+}
+
+.btn-next {
+    width: 20%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #f5f5f5;
+
+    background-color: #EB8C1C;
+    cursor: pointer;
+}
+
+.btn-back {
+    width: 8%;
+    padding: 10px 0px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #f5f5f5;
+    background-color: #44444450;
+    cursor: pointer;
+}
+
+.share-Image {
+    width: 32vw;
+    padding: 30px;
+}
+
+@media only screen and (max-width: 950px) {
+
+    .middle {
+        width: 90vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .bnt-back {
+        background-color: #44444400;
+    }
+    
+    .btn-next {
+        width: 50vw;
+        height: 5vh;
+    }
+}
