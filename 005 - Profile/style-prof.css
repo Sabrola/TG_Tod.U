@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;800&display=swap');
+
+tittle {
+display: none;
+}
+
+body {
+    margin: 0;
+}
+
+.top-bar {
+width: 100vw;
+height: 10vh;
+background-color: #16131b;
+}
+
+.main {
+    width: 100vw;
+    height: 90vh;
+    background-color: #25202b;
+}

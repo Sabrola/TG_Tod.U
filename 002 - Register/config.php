@@ -4,7 +4,7 @@
     $dbPassword = 'IN2awhNIyPKznt0pvuYy';
     $dbName = 'byl0zvmrp1su2fkfxtxe';
 
-    $conect = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
+    $connect = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
 
    // if ($conect->conect_errno) {
    //     echo "Erro";
