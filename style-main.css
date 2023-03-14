@@ -3,6 +3,9 @@
 body {
     margin: 0;
     font-family: 'Dosis', sans-serif;
+    background-color: #f5f5f5;
+    color:#000000;
+    overflow: hidden;
 }
 
 tittle {
@@ -10,9 +13,8 @@ tittle {
 }
 
 .main-part {
-    width: 100vw;
-    height: 100vh;
-    background-color: #f5f5f5;
+    width: 100svw;
+    height: 100svh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -60,6 +62,12 @@ tittle {
 
     cursor: pointer;
     box-sizing: border-box;
+    transition-property: transform;
+    transition-duration: 0.3s;
+}
+
+.btn-Register:hover {
+    transform: scale(1.1,1.1);
 }
 
 .btn-login {
@@ -74,6 +82,12 @@ tittle {
 
     cursor: pointer;
     box-sizing: border-box;
+    transition-property: transform;
+    transition-duration: 0.3s;
+}
+
+.btn-login:hover {
+    transform: scale(1.1,1.1);
 }
 
 .btn-share {
@@ -90,6 +104,12 @@ tittle {
 
     cursor: pointer;
     box-sizing: border-box;
+    transition-property: transform;
+    transition-duration: 0.3s;
+}
+
+.btn-share:hover {
+    transform: scale(1.1,1.1);
 }
 
 @media only screen and (max-width: 600px) {

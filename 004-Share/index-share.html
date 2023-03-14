@@ -13,7 +13,7 @@
 <body>
 
     <div class="back">
-        <button class="btn-back"> Voltar </button>
+        <button class="btn-back" onclick="window.location.href='/'"> Voltar </button>
     </div>
 
 <DIV class="main-part">
@@ -24,15 +24,17 @@
     <div class="middle">
         <h3>Coloque aqui o token que você recebeu para ter acesso a agenda de outro usuario!</h3>
 
-        <div class="textfield">
-            <input type="text" name="token" placeholder="Token">
-        </div>
-
-        <button class="btn-next">Próximo</button>
+        <form>
+            <div class="textfield">
+                <input type="text" name="token" placeholder="Token">
+            </div>
+    
+            <button class="btn-next" type="submit">Próximo</button>
+        </form>
     </div>
     <div class="bottom">
-        <img src="Logo sketch.png" class="share-Image" alt="Tod.U Logo">
-    </div>
+        <img src="Logo.png" class="share-Image" alt="Tod.U Logo">
+        </div>
 </DIV>
 
 </body>

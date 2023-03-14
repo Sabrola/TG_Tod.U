@@ -15,7 +15,7 @@
 <DIV class="main">
 
 <div class="back">
-    <button class="btn-back"> Voltar </button>
+    <button class="btn-back" onclick="window.location.href='/'"> Voltar </button>
 </div>
 
     <!---MAIN--->
@@ -31,15 +31,19 @@
     <div class="right-login">
         <div class="card-log">
             <h1>Bem vindo de volta!</h1>
+            <form>
             <div class="textfield">
                 <label for="user">Usuário:</label>
-                <input type="text" name="user" placeholder="Usuário">
+                <input id="user" type="text" placeholder="Usuário">
             </div>
             <div class="textfield">
                 <label for="senha">Senha:</label>
-                <input type="password" name="senha" placeholder="Senha">
+                <input id="senha" type="password" placeholder="Senha">
             </div>
-            <button class="btn-log">Próximo</button>
+
+            <button class="btn-log" type="submit">Próximo</button>
+            </form>
+            
         </div>
     </div>
 <!---RIGHT--->
